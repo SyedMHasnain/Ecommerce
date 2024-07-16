@@ -1,9 +1,11 @@
 import React from 'react'
-
+import SideNavi from '../Components/Sidenav'
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <>
+    <SideNavi/>
+    </>
+  );
 }
 
 export default About
