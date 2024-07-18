@@ -1,8 +1,11 @@
 import React from 'react'
+import LandSwiper from '../Components/LandSwiper'
 
 const Contact = () => {
   return (
-    <div>Contatct</div>
+   <>
+   <LandSwiper/>
+   </>
   )
 }
 

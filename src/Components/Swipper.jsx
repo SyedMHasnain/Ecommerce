@@ -1,6 +1,9 @@
 import React from "react";
 // import Header from "./Header";
 import { Carousel } from "antd";
+import slide1 from "../images/1.jpg";
+import slide2 from "../images/2.jpg";
+import slide3 from "../images/3.jpg";
 const contentStyle = {
   margin: 0,
   width: "100%",
@@ -12,32 +15,32 @@ const contentStyle = {
 };
 
 const App = () => (
-  <Carousel>
+  <Carousel autoplay>
     <div>
       <img
         style={contentStyle}
-        src="https://stormfiber.com/wp-content/uploads/2022/02/storm-into-the-future-desktop-2-1568x725.jpg"
+        src={slide1}
         alt=""
       />
     </div>
     <div>
       <img
         style={contentStyle}
-        src="https://stormfiber.com/wp-content/uploads/2022/02/storm-into-the-future-desktop-2-1568x725.jpg"
+        src={slide2}
         alt=""
       />
     </div>
     <div>
       <img
         style={contentStyle}
-        src="https://stormfiber.com/wp-content/uploads/2022/02/past.jpg"
+        src={slide2}
         alt=""
       />
     </div>
     <div>
       <img
         style={contentStyle}
-        src="https://stormfiber.com/wp-content/uploads/2022/02/past.jpg"
+        src={slide3}
         alt=""
       />
     </div>

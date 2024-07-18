@@ -5,6 +5,7 @@
 body {
   margin: 0;
   background: #ffff;
+  overflow: hiddenx ;
 }
 
 /* footer */
@@ -13,7 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 40px 0;
-  background-color: cadetblue;
+  background-color: rgb(197, 200, 200);
   color: white;
 }
 
